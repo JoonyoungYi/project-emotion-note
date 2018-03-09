@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <TextView
+        android:id="@+id/text_tv"
+        android:background="@drawable/base_card_bg_top"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="202020202020202020202020202020202020202020202020202020202020202020202020202020202020" />
+
+    <TextView
+        android:id="@+id/description_tv"
+        android:background="@drawable/base_card_bg_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1분전 작성하셨습니다"
+        android:textSize="15sp" />
+
+</LinearLayout>
+
